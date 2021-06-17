@@ -63,3 +63,58 @@
     font-family: 'Vioda libre';
 }
 
+/* Page 1 section association */
+
+.association{
+    margin-top: 5rem;
+}
+
+.association img {
+    width: 100%;
+}
+
+.btn-success{
+    background: #21E71B;
+    border-color: #21E71B;
+}
+
+/* Page 1 section grid_photo */
+
+
+/* Page 1 section actions */
+.actions button{
+    margin-bottom: 2rem;
+}
+.actions img{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background: #212529;
+    color:  rgba(255,255,255,.55);
+    margin-top: 2rem;
+}
+
+.lois_1901 img{
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.rs a {
+    text-decoration: none;
+}
+.rs a svg{
+    margin-right: 1rem;
+}
+
+
+footer .mention_legal{
+    text-align: center;
+}
+
+footer .mention_legal a{
+    text-decoration: none;
+    color: #21E71B;
+}
+
