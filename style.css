@@ -71,6 +71,20 @@
 
 .association img {
     width: 100%;
+    position: relative;
+    top: -5rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.association p {
+    margin-top: -5rem;
+}
+@media screen and (min-width: 768px){
+    .association p {
+        margin-top: 0;
+    }
 }
 
 .btn-success{
@@ -80,6 +94,130 @@
 
 /* Page 1 section grid_photo */
 
+.container{
+    width: 100%;
+    max-width: 120rem;
+}
+
+.img-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; 
+    grid-row-gap: 1.5rem;
+    grid-template-areas: 
+                        'img-1' 
+                        'img-2'
+                        'img-3'
+                        'img-4'
+                        'img-6'
+                        'img-6'
+                        'img-7'
+                        'img-8'
+                        'img-9'
+                        'img-10';
+}
+@media (min-width: 768px){
+    .img-gallery{
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 1.5rem;
+        grid-template-areas: 
+                        'img-1 img-2' 
+                        'img-3 img-3'
+                        'img-4 img-5'
+                        'img-10 img-6'
+                        'img-7 img-7'
+                        'img-8 img-9';
+    }
+}
+
+@media (min-width: 1200px){
+    .img-gallery{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            'img-1 img-2 img-4 img-5 img-3 img-3'
+            'img-6 img-6 img-7 img-10 img-8 img-9';
+    }
+}
+
+
+.img-gallery a {
+    width: 100%;
+    height: 30rem;
+    min-height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 768px){
+    .img-gallery a{
+        height: 20rem;
+        
+    }
+}
+
+.img-1{
+    grid-area: img-1;
+    background-image: url(/img/img-gorille-1.jpg);
+
+}
+
+.img-2{
+    grid-area: img-2;
+    background-image: url(/img/img-gorille-2.jpg);
+
+}
+
+.img-3{
+    grid-area: img-3;
+    background-image: url(/img/img-gorille-3.jpg);
+
+}
+
+.img-4{
+    grid-area: img-4;
+    background-image: url(/img/img-gorille-4.jpg);
+
+}
+
+.img-5{
+    grid-area: img-5;
+    background-image: url(/img/img-gorille-5.jpg);
+
+}
+
+.img-6{
+    grid-area: img-6;
+    background-image: url(/img/img-gorille-6.jpg);
+
+}
+
+.img-7{
+    grid-area: img-7;
+    background-image: url(/img/img-gorille-7.jpg);
+
+}
+
+.img-8{
+    grid-area: img-8;
+    background-image: url(/img/img-gorille-8.jpg);
+
+}
+
+.img-9{
+    grid-area: img-9;
+    background-image: url(/img/img-gorille-9.jpg);
+
+}
+
+.img-10{
+    grid-area: img-10;
+    background-image: url(/img/img-gorille-1.jpg);
+
+}
 
 /* Page 1 section actions */
 .actions button{
