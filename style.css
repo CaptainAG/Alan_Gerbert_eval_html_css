@@ -166,61 +166,61 @@
 
 .img-1{
     grid-area: img-1;
-    background-image: url(/img/img-gorille-1.jpg);
+    background-image: url(img/img-gorille-1.jpg);
 
 }
 
 .img-2{
     grid-area: img-2;
-    background-image: url(/img/img-gorille-2.jpg);
+    background-image: url(img/img-gorille-2.jpg);
 
 }
 
 .img-3{
     grid-area: img-3;
-    background-image: url(/img/img-gorille-3.jpg);
+    background-image: url(img/img-gorille-3.jpg);
 
 }
 
 .img-4{
     grid-area: img-4;
-    background-image: url(/img/img-gorille-4.jpg);
+    background-image: url(img/img-gorille-4.jpg);
 
 }
 
 .img-5{
     grid-area: img-5;
-    background-image: url(/img/img-gorille-5.jpg);
+    background-image: url(img/img-gorille-5.jpg);
 
 }
 
 .img-6{
     grid-area: img-6;
-    background-image: url(/img/img-gorille-6.jpg);
+    background-image: url(img/img-gorille-6.jpg);
 
 }
 
 .img-7{
     grid-area: img-7;
-    background-image: url(/img/img-gorille-7.jpg);
+    background-image: url(img/img-gorille-7.jpg);
 
 }
 
 .img-8{
     grid-area: img-8;
-    background-image: url(/img/img-gorille-8.jpg);
+    background-image: url(img/img-gorille-8.jpg);
 
 }
 
 .img-9{
     grid-area: img-9;
-    background-image: url(/img/img-gorille-9.jpg);
+    background-image: url(img/img-gorille-9.jpg);
 
 }
 
 .img-10{
     grid-area: img-10;
-    background-image: url(/img/img-gorille-1.jpg);
+    background-image: url(img/img-gorille-1.jpg);
 
 }
 
@@ -230,6 +230,49 @@
 }
 .actions img{
     width: 100%;
+}
+
+/* Page Association */
+.notre-assos img {
+    width: 100%;
+}
+
+.notre-assos h3{
+    font-family: 'viaoda libre';
+}
+
+.notre-assos p {
+    font-family: 'Poppins';
+}
+
+.phrase p{
+    color: #21E71B;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: .9rem;
+}
+
+.notre-assos li{
+    font-family: 'Poppins';
+    position: relative;
+    margin-bottom: .3rem;
+ }
+
+ 
+@media (min-width: 768px){
+    #img-order{
+        order: 2;
+    }
+
+    #text-order{
+        order: 1;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 
@@ -287,10 +330,34 @@
     background-color: white;
 }
 
+/* Nos actions */
+.nos_actions img {
+    width: 100%;
+}
 
- 
+.nos_actions h3{
+    font-family: 'viaoda libre';
+}
 
+.nos_actions p {
+    font-family: 'Poppins';
+}
 
+@media (min-width: 768px){
+    #img-order{
+        order: 2;
+    }
+
+    #text-order{
+        order: 1;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
 /* footer */
 footer{
