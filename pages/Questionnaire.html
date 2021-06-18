@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../add/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family= Viaoda+Libre & display=swap" rel= "feuille de style">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Viaoda+Libre&display=swap" rel="stylesheet">   
+    <title>Catus</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between ">
+            <a class="navbar-brand d-flex align-items-center" href="#"> <img src="../img/logo-nav-white.svg" width="80em"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../Index.html">Acceuil </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/association.html"> L'association  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../pages/gorilles.html"> Les gorilles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/actions.html">Nos actions </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<main>
+    <div class="background_form">
+        <img src="../img/img-gorille-1.jpg" alt="">
+    </div>
+        <div class="form p-4 p-lg-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M22 20.007a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V19h18V7.3l-8 7.2-10-9V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v16.007zM4.434 5L12 11.81 19.566 5H4.434zM0 15h8v2H0v-2zm0-5h5v2H0v-2z"/></svg>
+            <h5>Contactez nous directement via notre formulaire </h5>
+            <div role='form'>
+                <form method="POST" action="contact.php">
+                    <div class="row">
+                        <div class="col-lg-6 pr-md-1 mb-2">
+                            <input type="text"  id="firstname" placeholder="Votre nom">
+                        </div>
+                        <div class="col-lg-6 pr-md-1 mb-2">
+                            <input type="text"  id="lastname" placeholder="Votre prénom">
+                        </div>
+                        <div class="col-12 mb-2">
+                            <input type="tel"  id="phone" placeholder="Votre numéro de téléphone ">
+                        </div>
+                        <div class="col-12 mb-2">
+                            <input type="mail"  id="e-mail" placeholder="Votre adresse e-mail">
+                        </div>
+                        <div class="col-12 mb-2">
+                            <textarea type="text"  id="message" placeholder="Votre message" ></textarea>
+                        </div>
+                        <div class="col-12 mb-2">
+                            <button class="btn btn-dark" type="submit">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+</main>
+
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+    <script src="add/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
