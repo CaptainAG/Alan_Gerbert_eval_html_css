@@ -56,7 +56,7 @@
 
 .background_header h1{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -77,14 +77,12 @@
 .association img {
     width: 100%;
     position: relative;
-    top: -5rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    margin-top: -5rem;
 }
 
 .association p {
     margin-top: -5rem;
+    font-family: 'Poppins';
 }
 @media screen and (min-width: 768px){
     .association p {
@@ -114,7 +112,7 @@
                         'img-2'
                         'img-3'
                         'img-4'
-                        'img-6'
+                        'img-5'
                         'img-6'
                         'img-7'
                         'img-8'
@@ -228,6 +226,9 @@
 .actions button{
     margin-bottom: 2rem;
 }
+.actions p {
+    font-family: 'Poppins';
+}
 .actions img{
     width: 100%;
 }
@@ -277,9 +278,14 @@
 
 
 /* Page Gorille */
+.info-general .row {
+    align-items: inherit;
+}
 
 .info-general img {
+    object-fit: cover;
     width: 100%;
+    height: 100%;
 }
 
 .info-general h3{
@@ -306,7 +312,7 @@
     left: -40px;
     width: 30px;
     height: 30px;
-    background-image: url(/img/logo-nav.svg);
+    background-image: url('../img/logo-nav.svg');
     background-repeat: no-repeat;
 } 
 
@@ -361,6 +367,7 @@
 /*Page Nous contacter*/
 .background_form img {
     width: 100%;
+    margin-top: 90px;
   }
   .form {
     display: block;
@@ -389,6 +396,11 @@
   
   .btn {
     width: 100%;
+  }
+
+  .form-control:focus {
+      border-color: #21E71B;
+      box-shadow: none;
   }
 
 @media (min-width: 768px){
@@ -432,7 +444,7 @@
         width: 28em !important;
         position: absolute;
         top: 19rem;
-        left: 65rem;
+        left: 59rem;
         background: white;
       }
     
@@ -492,6 +504,5 @@ footer .mention_legal a{
     text-decoration: none;
     color: #21E71B;
 }
-
 
 
