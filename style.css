@@ -81,7 +81,6 @@
 }
 
 .association p {
-    margin-top: -5rem;
     font-family: 'Poppins';
 }
 @media screen and (min-width: 768px){
@@ -91,6 +90,7 @@
 }
 
 .btn-success{
+    width: 110px !important;
     background: #21E71B;
     border-color: #21E71B;
 }
@@ -250,7 +250,7 @@
     color: #21E71B;
     font-family: 'Poppins';
     text-align: center;
-    font-size: .9rem;
+    font-size: 1.5rem;
 }
 
 .notre-assos li{
@@ -305,23 +305,14 @@
     margin-bottom: .3rem;
  }
 
-.info-general li::before{
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: -40px;
-    width: 30px;
-    height: 30px;
-    background-image: url('../img/logo-nav.svg');
-    background-repeat: no-repeat;
-} 
 
-@media (min-width: 768px){
-    #img-order{
+
+@media (min-width: 960px){
+    #img-order-gorille{
         order: 2;
     }
 
-    #text-order{
+    #text-order-gorille{
         order: 1;
     }
 
@@ -330,7 +321,7 @@
         justify-content: space-between;
         align-items: center;
     }
-}
+} 
 
 #gridgorilles{
     background-color: white;
